@@ -38,6 +38,8 @@ gem 'devise'
 gem 'carrierwave'
 gem 'mini_magick'
 
+gem 'will_paginate'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
