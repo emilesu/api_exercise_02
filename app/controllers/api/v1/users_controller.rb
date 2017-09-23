@@ -11,12 +11,6 @@ class Api::V1::UsersController < ApiController
   end
 
   def show
-    render :json => {
-      :email => current_user.email,
-      :avatar => current_user.avatar,
-      :updated_at => current_user.updated_at,
-      :created_at => current_user.created_at
-    }
   end
 
   protected
